@@ -29,3 +29,9 @@ devtools::load_all()
 ## Download raw data ----
 
 source(here::here("analyses", "download-data.R"))
+
+devtools::install_dev()
+
+devtools::load_all()
+
+quarto::quarto_render(input = here::here("index.qdm"))

@@ -3,4 +3,26 @@ title: "Untitled"
 format: html
 ---
 
-knitr::kable()
+```{r}
+library(ggplot2)
+library(tidyverse)
+```
+#Solution dans rdata tool box practice 2
+
+```{r}
+knitr::kable(count_data)
+```
+
+| Species name        | N° of ecoregion |
+|:--------------------|----------------:|
+| American Black Bear |              82 |
+| Asiatic Black Bear  |              79 |
+| Brown Bear          |             139 |
+| Giant Panda         |               6 |
+| Sloth Bear          |              21 |
+| Spectacled Bear     |              23 |
+| Sun Bear            |              39 |
+
+```{r}
+
+```
